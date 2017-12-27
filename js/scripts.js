@@ -16,5 +16,7 @@ $(document).ready(function(){
 		$(this).attr('src', 'img/gallery/icons/0'+id+'w.png');
 	});
 	
-	
+	$('.green-item__row').on('click', function() {
+		$(this).parent().children('.green-item__hidden').toggle();
+	});
 });
