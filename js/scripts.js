@@ -19,4 +19,7 @@ $(document).ready(function(){
 	$('.green-item__row').on('click', function() {
 		$(this).parent().children('.green-item__hidden').toggle();
 	});
+
+	$('.p-tabs').lightTabs();
+	$('.fb-popup').fancybox();
 });
