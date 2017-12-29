@@ -20,6 +20,8 @@ $(document).ready(function(){
 		$(this).parent().children('.green-item__hidden').toggle();
 	});
 
-	$('.p-tabs').lightTabs();
 	$('.fb-popup').fancybox();
+	$('.green-btn-phone').fancybox();
+
+	$('.p-tabs').lightTabs();
 });

@@ -9,6 +9,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/font-awesome/css/font-awesome.min.css"  rel="stylesheet">
 	<link href="css/lightbox.min.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="js/fancybox/dist/jquery.fancybox.min.css">
 	<link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -156,57 +157,26 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-3">
-					<div class="green-item">
-						<div class="green-item__icon-wp">
-							<img src="img/i1.png" alt="alt" class="green-item__icon">
-						</div>
-						<div class="green-item__subtitle">
-							Удобно
-						</div>
-						<p class="green-item__description">
-							100 метров до метро "Орехово"
-						</p>
-					</div>
+				<div class="col-lg-3 col-sm-6 nisht">
+					<img src="img/udobno01.png" alt="">
+					<p class="udobn">Удобно</p>
+					<p class="p-ispr">100 метров до метро «Орехово»</p>
 				</div>
-				<div class="col-sm-3">
-					<div class="green-item">
-						<div class="green-item__icon-wp">
-							<img src="img/i2.png" alt="alt" class="green-item__icon">
-						</div>
-						<div class="green-item__subtitle">
-							Объект сдан
-						</div>
-						<p class="green-item__description">
-							Готовность — 100%
-						</p>
-					</div>
+				<div class="col-lg-3 col-sm-6 nisht">
+					<img src="img/udobno02.png" alt="">
+					<p class="udobn">Объект сдан</p>
+					<p class="p-ispr">Готовность — 100%</p>
 				</div>
-				<div class="col-sm-3">
-					<div class="green-item">
-						<div class="green-item__icon-wp">
-							<img src="img/i3.png" alt="alt" class="green-item__icon">
-						</div>
-						<div class="green-item__subtitle">
-							Заезжай и живи
-						</div>
-						<p class="green-item__description">
-							Отделка и мебель
-						</p>
-					</div>
+				<div class="col-lg-3 col-sm-6 nisht">
+					<img src="img/udobno03.png" alt="">
+					<p class="udobn">Заезжай и живи</p>
+					<p class="p-ispr">Отделка и мебель</p>
 				</div>
-				<div class="col-sm-3">
-					<div class="green-item">
-						<div class="green-item__icon-wp">
-							<img src="img/i4.png" alt="alt" class="green-item__icon">
-						</div>
-						<div class="green-item__subtitle">
-							Чистый воздух
-						</div>
-						<p class="green-item__description">
-							Рядом с парком «Царицино»
-						</p>
-					</div>
+				<div class="col-lg-3 col-sm-6 nisht">
+					<img src="img/udobno04.png" alt="">
+					<p class="udobn">Чистый воздух</p>
+					<p class="p-ispr">Рядом с парком «Царицино»</p>
+					<div id="second"></div><!-- Якорь для верхней кнопки -->
 				</div>
 			</div>
 		</div>
@@ -367,7 +337,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="green-btn__wp">
-								<a href="#" class="green-btn">
+								<a href="#phone-pu" class="green-btn green-btn-phone">
 									Задать вопрос
 								</a>
 							</div>
@@ -457,12 +427,19 @@
 		</div>
 	</section>
 
+	<div class="phone-modal popup" id="phone-pu">
+		<div class="popup__wp">
+			<input type="text" class="phone-modal__input" placeholder="Ваш телефон">
+		</div>
+	</div>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/lightbox.min.js"></script>
+	<script src="js/fancybox/dist/jquery.fancybox.min.js"></script>
 	<script src="js/scripts.js"></script>
 	<script src="js/jquery.inputmask.bundle.js"></script>
 

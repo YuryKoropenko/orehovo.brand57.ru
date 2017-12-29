@@ -785,7 +785,10 @@ li a:hover{
 		padding-top: 80px;
 	}
 	.tip-apart{
-		padding-top: 80px;
+		margin-top: 70px;
+	}
+	.tip-apart2 {
+		margin-top: 0 !important;
 	}
 	.kard-01 img{
 		width: 42%;
@@ -1227,6 +1230,69 @@ body {
 	font-size: 16px;
 	font-weight: 700;
 }
+.mycosts__table {
+	border-top: 1px solid #919191;
+	border-left: 1px solid #919191;
+	border-right: 1px solid #919191;
+	
+}
+.mycosts__row-top {
+	font-weight: 900;
+}
+.mycosts__row::before {
+	content: '';
+	display: table;
+}
+.mycosts__row::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.mycosts__item {
+	border-left: 1px solid #919191;
+	height: 76px;
+	float: left;
+	position: relative;
+	width: 16.749%;
+	border-bottom: 1px solid #919191;
+}
+.mycosts__item:first-child {
+	width: 33.005%;
+	border-left: none;
+}
+.mycosts__item:first-child span {
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.mycosts__item span {
+	font-size: 22px;
+	color: #000;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: auto;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.mycosts {
+	margin-top: 30px;
+}
+.phone-modal__input {
+	display: block;
+	padding: 23px 15px;
+	border-radius: 10px;
+	background: #e4e4e4;
+	font-size: 1rem;
+	border: 1px solid #ced4da;
+	color: #495057;
+	width: 100%;
+}
+.popup {
+	padding: 40px;
+}
 
 @media (max-width: 992px) {
 	.car-wrapper-02 {
@@ -1268,6 +1334,15 @@ body {
 		display: table;
 		clear: both;
 	}
+	.mycosts__table-wp {
+		width: 100%;
+		overflow: hidden;
+		overflow-x: auto;
+	}
+	.mycosts__table {
+		width: 800px;
+		
+	}
 	.radcomp__item {
 		float: left;
 		width: 25%;
@@ -1275,6 +1350,16 @@ body {
 	}
 	.radcomp__text {
 		padding-top: 10px;
+	}
+	.mycosts__item span {
+		font-size: 16px;
+	}
+	.mycosts__item:first-child span {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.mycosts__item {
+		height: 50px;
 	}
 }
 @media (max-width: 767px) {
