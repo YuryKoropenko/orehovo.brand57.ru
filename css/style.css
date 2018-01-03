@@ -104,7 +104,7 @@ h5{
 	margin-bottom: 30px;
 }
 h6{
-	font-size: 1.375rem;
+	font-size: 22px;
 	font-weight: 700;
 }
 .mybtn-01{
@@ -112,6 +112,10 @@ h6{
 }
 .btn-secondary{
 	padding: 2px 5px;
+}
+
+.container {
+  max-width: 1320px;
 }
 
 /*TOP-MENU
@@ -274,6 +278,12 @@ h6{
 	color: #000;
 	box-shadow: 0px 70px 40px 0px rgba(0, 0, 0, 0.1);
 }
+.car-wrapper-10 {
+	margin-top: -85px;
+}
+.down-sldr-10 {
+	margin-bottom: 0 !important;
+}
 .car-wrapper-02{
 	box-shadow: 0px 70px 40px 0px rgba(0, 0, 0, 0.1);
 }
@@ -378,7 +388,7 @@ h6{
 	background: #fff;
 	border-radius: 10px;
 	border: 1px solid #f5f5f5;
-	padding: 30px 0px 0 15px;
+	padding: 30px 40px 0 40px;
 }
 .txt-img{
 	
@@ -386,14 +396,22 @@ h6{
 .planir-block img{
 	margin-bottom: 28px;
 }
+.planir-block > img{
+	height: 50%;
+	display: block;
+	margin: 28px auto;
+}
 .tip-apart{
 	margin-bottom: 40px;
 }
 .million{
-	font-size: 1.6rem;
+	font-size: 18px;
 	color: #92b525;
 	font-weight: 600;
 	margin-bottom: 20px;
+}
+.million span {
+	font-size: 30px;
 }
 .green-block {
 	text-align: center;
@@ -592,6 +610,8 @@ li a:hover{
 	border-radius: 10px;
 	margin-top: -85px;
 	color: #000;
+	position: relative;
+	z-index: 2;
 }
 .sldr-zgl{
 	text-align: center;
@@ -601,6 +621,7 @@ li a:hover{
 ==================================================*/
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
 }
 
 /*Large devices (desktops, 14055px and up)*/
@@ -634,6 +655,16 @@ li a:hover{
 
 
 /*Large devices (desktops, 992px and up)*/
+@media (max-width: 1296px) {
+	.planir-block {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.planir-block h6 {
+		min-height: 52px;
+	}
+}
+
 @media (max-width: 1199px) {
 	.menu-dwn{
 		display: none;
@@ -674,7 +705,6 @@ li a:hover{
 		text-align: right;
 		margin-top: 15px;
 	}
-	
 }
 
 /*Small devices (landscape phones, 992px and up)*/
@@ -688,6 +718,9 @@ li a:hover{
 	.phone-gamburg{
 		text-align: right;
 		margin-top: 15px;
+	}
+	.planir-block h6 {
+		min-height: auto;
 	}
 
 }
@@ -1112,12 +1145,11 @@ body {
 	font-size: 0;
 	text-align: center;
 	width: 100%;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 .gallery__item {
 	display: inline-block;
-	font-size: 30px;
-	font-weight: 900;
+	font-size: 22px;
 	color: #949494;
 	padding-top: 10px;
 	padding-left: 30px;
@@ -1174,14 +1206,15 @@ body {
 }
 .slider__items {
 	position: relative;
+	padding: 0 70px 70px;
 }
 .slider__items::after {
 	content: '';
 	width: 79px;
 	height: 79px;
 	position: absolute;
-	right: 32px;
-	top: 34px;
+	right: 102px;
+	top: 104px;
 	display: block;
 	background-image: url(../img/big-img.png);
 	background-repeat: no-repeat;
@@ -1292,6 +1325,12 @@ body {
 }
 .popup {
 	padding: 40px;
+}
+.green-item__list .green-item__item:first-child .green-item__hidden {
+	display: block;
+}
+.img-wp__cont {
+	height: 91px;
 }
 
 @media (max-width: 992px) {
