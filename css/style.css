@@ -1136,6 +1136,10 @@ body {
 	color: #fff;
 	font-size: 16px;
 	font-weight: 500;
+	text-align: center;
+}
+.green-btn__wp {
+	text-align: center;
 }
 .green-btn:hover,
 .green-btn:focus,
@@ -1487,9 +1491,21 @@ body {
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
+	#slider-02,
+	.ht-buy-wp {
+		padding-bottom: 25px;
+	}
+	.ht-buy {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }
 @media (max-width: 480px) {
 	.green-btn {
 		width: 100%;
+	}
+	.ht-buy {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
