@@ -276,7 +276,11 @@ h6{
 	border-radius: 10px;
 	margin-top: -200px;
 	color: #000;
+	position: relative;
 	box-shadow: 0px 70px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.car-wrapper-new {
+	position: relative;
 }
 .car-wrapper-10 {
 	margin-top: -85px;
@@ -1373,6 +1377,46 @@ body {
 	display: block;
 	text-align: center;
 }
+
+/*slider*/
+#carouselExampleControls-4 .cloneditem-1,
+#carouselExampleControls-4 .cloneditem-2,
+#carouselExampleControls-4 .cloneditem-3,
+#carouselExampleControls-4 .cloneditem-4,
+#carouselExampleControls-4 .cloneditem-5 {
+  display: none;
+}
+#carouselExampleControls-4 .col-lg-3 {
+	width: 25%;
+	float: left;
+	display: block;
+}
+@media (min-width: 992px) {
+	#carouselExampleControls-4 .carousel-inner .cloneditem-1,
+	#carouselExampleControls-4 .carousel-inner .cloneditem-2,
+	#carouselExampleControls-4 .carousel-inner .cloneditem-3 {
+    display: block;
+  }
+}
+@media (max-width: 991px) {
+	#carouselExampleControls-4 .col-lg-3 {
+		width: 50%;
+	}
+	#carouselExampleControls-4 .carousel-inner .cloneditem-1 {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+	#carouselExampleControls-4 .col-lg-3 {
+		width: 100%;
+	}
+	#carouselExampleControls-4 .carousel-inner .cloneditem-1 {
+    display: none;
+  }
+}
+
+
+
 
 @media (max-width: 992px) {
 	.car-wrapper-02 {
